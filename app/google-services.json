@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "395893838262",
+    "firebase_url": "https://help-gamification-app.firebaseio.com",
+    "project_id": "help-gamification-app",
+    "storage_bucket": "help-gamification-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395893838262:android:66b13e281c0a9c60",
+        "android_client_info": {
+          "package_name": "com.bmc304.wincci.bmc304gamificationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "395893838262-bf9bnneuiqequ5jagftmgclm7jr9fl30.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFa5X6Y_BiXHvQLgc89j0Hd8b34womQUE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_height="fill_parent"
+    android:layout_width="fill_parent">
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.bmc304.wincci.bmc304gamificationapp.StoriesSingleActivity">
+
+    <ImageView
+        android:id="@+id/singlePostImage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/add_images"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Post Title"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"/>
+
+    <TextView
+        android:id="@+id/singlePostTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_outline"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:padding="15dp"
+        android:layout_marginBottom="15dp"
+        android:text="Post Title"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:text="Post Description"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"/>
+
+    <TextView
+        android:id="@+id/singlePostDesc"
+        android:layout_width="match_parent"
+        android:background="@drawable/input_outline"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Post Desc"/>
+
+    <LinearLayout
+        android:id="@+id/llBottomContainer2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:padding="5dp" >
+
+    <Button
+        android:id="@+id/remove_post"
+        android:layout_width="match_parent"
+        android:visibility="invisible"
+        android:layout_height="wrap_content"
+        android:text="Remove Post"/>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

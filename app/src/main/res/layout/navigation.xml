@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              xmlns:tools="http://schemas.android.com/tools" android:layout_height="fill_parent"
+              android:layout_width="fill_parent">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:map="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/map"
+              android:name="com.google.android.gms.maps.SupportMapFragment"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context="com.bmc304.wincci.bmc304gamificationapp.Navigation"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/labelCoordinate"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="asdasd"/>
+    </LinearLayout>
+
+</FrameLayout>
