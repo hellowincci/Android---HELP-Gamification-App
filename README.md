@@ -7,4 +7,9 @@ This project is to build a android mobile application for students and admins of
   <li>Admins can create students to add, update and delete their score to the ranking list</li>
  </ul>
  
+ ## Built With
+ <ul>
+  <li>Android Studio - Java</li>
+  <li>Firebase</li>
+ </ul>
   
